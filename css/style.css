@@ -17,7 +17,7 @@ a:link {
 }
 
 a:visited {
-  color: lightblue;
+  color: #000a29;
 }
 
 a:hover {
@@ -31,11 +31,13 @@ a:active {
 /* Main Styles --------------------- */
 
 .main-page{
-  background-image: url("../img/stable.jpg");
-  background-size: cover;
+  background-image: url("../img/bigfield.jpg");  
   text-align: center; 
   width: 100%;
   height: 850px;
+  /* background: linear-gradient(0deg, transparent, #fff),
+ #ffa949 url('../img/stable.jpg'); */
+ background-size: cover; 
 }
 
 .main-page h1 {
@@ -43,18 +45,38 @@ a:active {
   float: left;
   font-family: 'Lobster', cursive;
   font-size: 9rem;
-  padding-left: 370px;
-  padding-top: 80px
+  padding-left: 372.5px;
+  padding-top: 100px; 
+  text-shadow: 4px 2px 1px rgba(0, 0, 0, 0.5);
   
 }
 
 
+.main-header-ul{
+  list-style-type: none;   
+  word-spacing: 5em;
+  text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  position: relative;
+  width:100%;
+  float:left;
+
+}
+
+
+
+.main-header-ul li {
+  display: inline;
+  font-family: 'georgia', 'Arial', serif;
+  font-size: 2rem;
+ 
+}
 
 .main-ul{
   list-style-type: none;   
   word-spacing: 25em;
   display: inline-block;
-  padding-top: 150px;
+  padding-top: 100px;
   padding-left: 70px;
   float: left;
 }
@@ -65,22 +87,11 @@ a:active {
   display: inline;
   font-family: 'Lobster', 'Arial', serif;
   font-size: 7rem;
+  text-shadow: 4px 2px 1px rgba(0, 0, 0, 0.5);
 }
 
 
-.menu_items {
-  float: right;
-  display: inline-block;
-  padding-right: 100px;
-  word-spacing: 7em;
-}
 
-.menu_items li {
-  display: inline;
-  font-family: 'Lobster', 'Arial', serif;
-  font-size: 2rem;  
-
-}
 
 .glyphicon-chevron-down {
 font-size: 50px;
@@ -93,6 +104,7 @@ padding-left: 48%;
 
 .down_arrow{
   padding-top: 800px;
+  text-shadow: 4px 2px 1px rgba(0, 0, 0, 0.5);
   
   }
 
